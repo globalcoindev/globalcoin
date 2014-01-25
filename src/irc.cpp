@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2012 Litecoin Developers
-// Copyright (c) 2013 CHNCoin Developers
+// Copyright (c) 2013 GlobalCoin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -295,14 +295,14 @@ void ThreadIRCSeed2(void* parg)
         }
         
         if (fTestNet) {
-            Send(hSocket, "JOIN #chncoinTEST\r");
-            Send(hSocket, "WHO #chncoinTEST\r");
+            Send(hSocket, "JOIN #globalcoinTEST\r");
+            Send(hSocket, "WHO #globalcoinTEST\r");
         } else {
-            // randomly join #chncoin00-#chncoin99
+            // randomly join #globalcoin00-#globalcoin99
             int channel_number = GetRandInt(100);
-            channel_number = 0; // CHNCoin: for now, just use one channel
-            Send(hSocket, strprintf("JOIN #chncoin%02d\r", channel_number).c_str());
-            Send(hSocket, strprintf("WHO #chncoin%02d\r", channel_number).c_str());
+            channel_number = 0; // GlobalCoin: for now, just use one channel
+            Send(hSocket, strprintf("JOIN #globalcoin%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("WHO #globalcoin%02d\r", channel_number).c_str());
         }
 
         int64 nStart = GetTime();

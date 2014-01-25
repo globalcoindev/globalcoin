@@ -1,9 +1,9 @@
-Building CHNCoin
+Building GlobalCoin
 
-See doc/readme-qt.rst for instructions on building CHNCoin-QT,
+See doc/readme-qt.rst for instructions on building GlobalCoin-QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of CHNCoin.
+implementation of GlobalCoin.
 
-See doc/build-*.txt for instructions on building CHNCoind,
+See doc/build-*.txt for instructions on building GlobalCoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of CHNCoin.
+implementation of GlobalCoin.

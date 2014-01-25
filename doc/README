@@ -1,8 +1,8 @@
-CHNCoin 0.6 BETA
+GlobalCoin 0.6 BETA
 
 Copyright (c) 2009-2012 Bitcoin Developers
 Copyright (c) 2011-2012 Litecoin Developers
-Copyright (c) 2013 CHNCoin Developers
+Copyright (c) 2013 GlobalCoin Developers
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -12,7 +12,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-CHNCoin is a free open source peer-to-peer electronic cash system that is
+GlobalCoin is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -20,16 +20,16 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-You need the Qt4 run-time libraries to run CHNCoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run GlobalCoin-Qt. On Debian or Ubuntu:
   sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
- bin/32/chncoin-qt (GUI, 32-bit)
- bin/32/chncoind (headless, 32-bit)
- bin/64/chncoin-qt (GUI, 64-bit)
- bin/64/chncoind (headless, 64-bit)
+ bin/32/globalcoin-qt (GUI, 32-bit)
+ bin/32/globalcoind (headless, 32-bit)
+ bin/64/globalcoin-qt (GUI, 64-bit)
+ bin/64/globalcoind (headless, 64-bit)
 
 
-See the documentation at the CHNCoin wiki:
-  https://github.com/chncoin/CHNCoin/wiki
+See the documentation at the GlobalCoin wiki:
+  https://github.com/globalcoin/GlobalCoin/wiki
 for help and more information.

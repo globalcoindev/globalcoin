@@ -212,7 +212,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <location filename="../askpassphrasedialog.cpp" line="101"/>
         <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>VAROVÁNÍ: Pokud zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY BITCOINY&lt;/b&gt;!
+        <translation>VAROVÁNÍ: Pokud zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠEGLBY BITCOINY&lt;/b&gt;!
 Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
     <message>
